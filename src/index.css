@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Assistant", "Heebo", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-noar-blue: #004a99;
+  --color-noar-red: #e30613;
+  --color-noar-yellow: #facc15;
+}
+
+:root {
+  direction: rtl;
+}
+
+body {
+  @apply bg-sky-50 text-slate-900;
+}
